@@ -2,10 +2,12 @@
   <library name="Maven: com.dlsc.formsfx:formsfx-core:11.3.2">
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/com/dlsc/formsfx/formsfx-core/11.3.2/formsfx-core-11.3.2.jar!/" />
-      <root url="file://G:/coding/javafx-sdk-18.0.2/lib" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-    <jarDirectory url="file://G:/coding/javafx-sdk-18.0.2/lib" recursive="false" />
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/dlsc/formsfx/formsfx-core/11.3.2/formsfx-core-11.3.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/dlsc/formsfx/formsfx-core/11.3.2/formsfx-core-11.3.2-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
