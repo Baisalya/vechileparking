@@ -23,7 +23,7 @@
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="257.0" layoutY="175.0" prefHeight="25.0" prefWidth="120.0" text="vehicle:">
+      <Label layoutX="257.0" layoutY="175.0" prefHeight="25.0" prefWidth="120.0" text="vehicle No:">
          <font>
             <Font name="Franklin Gothic Book" size="18.0" />
          </font>
@@ -37,7 +37,7 @@
             <Font name="Franklin Gothic Book" size="18.0" />
          </font>
       </Label>
-      <ImageView fitHeight="400.0" fitWidth="250.0" layoutY="-1.0" opacity="0.84" pickOnBounds="true" smooth="false">
+      <ImageView fitHeight="400.0" fitWidth="250.0" layoutY="-1.0" opacity="0.75" pickOnBounds="true" smooth="false">
          <image>
             <Image url="@../../../../Assets/signup.jpg" />
          </image></ImageView>
@@ -50,8 +50,8 @@
          <font>
             <Font name="Berlin Sans FB Demi Bold" size="18.0" />
          </font></Label>
-      <Label layoutX="294.0" layoutY="369.0" prefHeight="17.0" prefWidth="142.0" text="Already Have an Account:" />
-      <Label layoutX="434.0" layoutY="369.0" prefHeight="17.0" prefWidth="69.0" text="Click Here" textFill="#6197c7">
+      <Label layoutX="284.0" layoutY="357.0" prefHeight="35.0" prefWidth="156.0" text="Already Have An Account:" />
+      <Label layoutX="427.0" layoutY="361.0" prefHeight="27.0" prefWidth="69.0" text="Click Here" textFill="#6197c7" underline="true">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
