@@ -92,7 +92,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.lala.example.vechileparking/com.lala.example.vechileparking.HelloApplication
+                                com.lala.example.vechileparking/com.lala.example.vechileparking.Main
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

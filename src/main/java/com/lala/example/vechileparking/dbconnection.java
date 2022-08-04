@@ -14,8 +14,8 @@ public class dbconnection {
            con= DriverManager.getConnection(url,dbname,password);
        }catch (Exception e){
            e.printStackTrace();
-
+           e.getCause();
        }
-       return getCon();
+       return con;
    }
 }
