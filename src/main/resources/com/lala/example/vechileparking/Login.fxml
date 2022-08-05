@@ -39,7 +39,7 @@
             <Font name="Berlin Sans FB" size="22.0" />
          </font>
       </Label>
-      <Label fx:id="gotoregbtn" layoutX="273.0" layoutY="339.0" prefHeight="26.0" prefWidth="190.0" text="Register here" textFill="#d43b4b">
+      <Label fx:id="gotoregbtn" layoutX="273.0" layoutY="339.0" prefHeight="26.0" prefWidth="158.0" text="Register here" textFill="#d43b4b">
          <font>
             <Font name="Berlin Sans FB" size="23.0" />
          </font>

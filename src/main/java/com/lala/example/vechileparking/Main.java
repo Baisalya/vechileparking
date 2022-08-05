@@ -17,7 +17,7 @@ public class Main extends Application {
         stage.resizableProperty().setValue(false);//resizable of
         stage.show();
         //
-
+      new dbconnection();
 
     }
 

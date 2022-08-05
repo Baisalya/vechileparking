@@ -31,11 +31,11 @@ public class LoginController implements Initializable {
     private PasswordField txtpassword;
     public  void  loginButtonOnAction(ActionEvent event){
 
-    if (txtmobileno.getText().isBlank()==false && txtpassword.getText().isBlank()){
-        loginmsg.setText("Take user name and password");
+    if (txtmobileno.getText().isBlank()==false && txtpassword.getText().isBlank()==false){
         ValidateLogin();
     }else {
-        loginmsg.setText("Invalid Credintial");
+        loginmsg.setText("Invalid credintial");
+
     }
     }
      public  void  cancelButtonOnAction(ActionEvent event){
@@ -57,7 +57,7 @@ public class LoginController implements Initializable {
     public void ValidateLogin(){
         dbconnection connow=new dbconnection();
         Connection connectDB=connow.getCon();
-        String Loginveryfy="SELECT * FROM `user` WHERE phone_no='"+txtmobileno.getText()+"' and password='"+txtpassword.getText()+"'";
+        String Loginveryfy="SELECT count(1) FROM user WHERE phone_no='"+txtmobileno.getText()+"' AND password='"+txtpassword.getText()+"'";
         try {
             Statement statement=connectDB.createStatement();
             ResultSet resultSet=statement.executeQuery(Loginveryfy);
