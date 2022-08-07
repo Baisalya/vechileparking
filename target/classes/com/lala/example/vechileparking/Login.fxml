@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
@@ -34,16 +35,16 @@
          </font>
       </Label>
       <PasswordField fx:id="txtpassword" layoutX="257.0" layoutY="189.0" prefHeight="26.0" prefWidth="223.0" promptText="enter your password" />
-      <Label layoutX="166.0" layoutY="333.0" prefHeight="37.0" prefWidth="108.0" text="New user" textFill="#783ad6">
+      <Label layoutX="225.0" layoutY="325.0" prefHeight="37.0" prefWidth="65.0" text="New user" textFill="#783ad6">
       <font>
-            <Font name="Berlin Sans FB" size="22.0" />
+            <Font name="Arial Narrow" size="17.0" />
          </font>
       </Label>
-      <Label fx:id="gotoregbtn" layoutX="273.0" layoutY="339.0" prefHeight="26.0" prefWidth="158.0" text="Register here" textFill="#d43b4b">
+      <Hyperlink fx:id="gotoregbtn" layoutX="293.0" layoutY="330.0" onAction="#gotoregbtnOnAction" prefHeight="28.0" prefWidth="118.0" text="Register here" textFill="#d43b4b">
          <font>
-            <Font name="Berlin Sans FB" size="23.0" />
+            <Font name="Arial Narrow" size="17.0" />
          </font>
-      </Label>
+      </Hyperlink>
       <Button fx:id="loginbtn" layoutX="199.0" layoutY="230.0" mnemonicParsing="false" onAction="#loginButtonOnAction" prefHeight="42.0" prefWidth="101.0" text="Login" />
       <Button fx:id="cancelbtn" layoutX="344.0" layoutY="230.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="42.0" prefWidth="101.0" text="Cancel" />
       <Label fx:id="loginmsg" layoutX="218.0" layoutY="284.0" prefHeight="32.0" prefWidth="190.0" textFill="#d43b3b">
